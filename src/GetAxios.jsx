@@ -67,15 +67,15 @@ function GetAxios() {
     
     return (
         <>
-            {/* when show 1 post */}
+                                        {/* when show 1 post  */}
             {/* <h1>{fetchData?.id}</h1>
             <h2>{fetchData?.title}</h2>
             <p>{fetchData?.body}</p> */}
 
-            {/* when show all the post (change url to uper)*/}
+                    {/* when show all the post (change url to uper)*/}
             <div className="container">
                 
-                <h1>All Posts </h1>
+                <h1 className='d-inline'>All Posts </h1><span></span>
                 <div className='posts_cover d-flex flex-wrap  g-2'>
                     {fetchData.map(post => ( // Map through the posts array
                         <div className="box_cvr w-25 p-2">
